@@ -1,0 +1,19 @@
+name: flutter_json_diff
+description: Visualize JSON diffs
+version: 0.1.0
+homepage: https://github.com/Schwusch/flutter_json_diff
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_diff:
+    git:
+      url: https://github.com/Schwusch/dart-json_diff.git
+      ref: support_lists
+  widget_arrows: ^0.1.7
+
+flutter:
